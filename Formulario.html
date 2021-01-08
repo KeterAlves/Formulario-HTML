@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="formcss.css">
+</head>
+
+<body>
+	<form class="formulario" method="post" id="formulario1">
+		<h1>Preencha com seus dados</h1>
+
+	 		<input type="text" name="txtnome" placeholder="Nome Completo" required/> <br/>
+	 		<input type="text" name="txtemail" placeholder="Seu E-mail" required/> <br/>
+
+		<h2>SEXO:</h2>
+		<H2>
+		<a>M</a><input type="radio" name="rsexo"/>&nbsp;&nbsp;
+		<a>F</a><input type="radio" name="rsexo"/>
+		</H2>
+<table>
+	<tr>
+		<td><input type="submit" value="Salvar" /></td>
+		<td><input type="reset" value="Limpar" onclick="Limpar()"/></td>
+	<tr>
+</table>
+
+<br/>
+
+	</form>
+</body>
+</html>
