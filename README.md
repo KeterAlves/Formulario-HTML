@@ -1,2 +1,2 @@
 # Formulario-HTML
-Formulário criado com HTML e CSS puro
+Formulary in HTML & CSS
